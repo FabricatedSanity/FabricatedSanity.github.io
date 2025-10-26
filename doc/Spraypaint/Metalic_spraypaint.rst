@@ -1,12 +1,11 @@
 Metalic spraypaint
-===================
+====================
 
-Disclaimer this project is based in norway, you might not find the same brands we are discussing here. 
+.. note:: This project is based in norway, you might not find the
+ same brands we are discussing here. 
 
-
-
-Brand:
-------
+A comparisson of brands and finishes:
+----------------------------------------
 
 **Metallic silver colourworks**
 
