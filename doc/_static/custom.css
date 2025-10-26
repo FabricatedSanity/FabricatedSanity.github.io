@@ -1,0 +1,21 @@
+/* Lenker og «hover» i menylinje og brødtekst */
+a,
+a:visited { color: #ff7a00; }
+a:hover   { color: #ff9533; }
+
+/* Aktive elementer i sidemenyen */
+.sidebar .current a,
+.sidebar a:hover { color: #ff7a00; }
+
+/* Uthevde inline-kodelementer */
+code, .docutils.literal {
+  background: rgba(255,122,0,0.10);
+  border-radius: .2rem;
+  padding: .05rem .25rem;
+}
+
+/* Mørk modus småjusteringer (valgfritt) */
+@media (prefers-color-scheme: dark) {
+  a, a:visited { color: #ffa24d; }
+  a:hover      { color: #ffc285; }
+}
