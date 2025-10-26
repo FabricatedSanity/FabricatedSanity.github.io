@@ -1,3 +1,4 @@
+
 Metalic spraypaint
 ====================
 
@@ -7,9 +8,9 @@ Metalic spraypaint
 A comparisson of brands and finishes:
 ----------------------------------------
 
-**Metallic silver colourworks**
+**Metallic colorworks**
 
-.. image:: ../_static/logo.png
+.. image:: metallic _colourworks.png
    :align: right
    :height: 200
    :width: 200
