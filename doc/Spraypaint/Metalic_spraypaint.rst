@@ -10,7 +10,7 @@ A comparisson of brands and finishes:
 
 **Metallic colorworks**
 
-.. image:: metallic _colourworks.png
+.. image:: MetallicColourworks.png
    :align: right
    :height: 200
    :width: 200
