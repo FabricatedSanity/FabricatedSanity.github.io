@@ -24,11 +24,20 @@ This also applies to the other colours from colourworks which are metallic.
 
 
 
+
+
+
+
 **Biltema color**
+
 .. figure:: ../_static/Spraypaint/biltemaColor.png
-   :align: right
+   :align: right 
    :height: 200
    :width: 200
 
    picture collected from `Biltemas webpage <https://www.biltema.no/bygg/maling/spraymaling/spraymaling-metallic-solv-400-ml-2000060837>`_
 
+
+
+If you want good coverage this is the spraypaint for you. It covers great, and only needs 1-2 layers for complete coverage,
+even on dark colours like black. This also applies to the gold variant of this spraypaint. 
