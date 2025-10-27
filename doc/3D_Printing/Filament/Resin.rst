@@ -12,5 +12,7 @@ This is a user frendly material to start out with, when one is not familiar with
 
 - Standard PLA-Resin
 - Water Washable PLA-Resin
+- TPU
+
 
 
