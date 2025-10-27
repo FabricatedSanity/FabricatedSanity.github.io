@@ -1,14 +1,15 @@
-/* Lys modus */
-:root {
-  --color-brand-primary: #F97316;     /* lenker, knapper, høydepunkt */
-  --color-brand-content: #F97316;
+html {
+  --color-brand-primary: #7b2cbf;
+  --color-brand-content: #9d4edd;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f8f3fc;
+  --color-foreground-primary: #1a1a1a;
 }
 
-/* Mørk modus */
-:root[data-theme="dark"] {
-  --color-brand-primary: #FF7A1A;
-  --color-brand-content: #FF7A1A;
+html[data-theme="dark"] {
+  --color-brand-primary: #c77dff;
+  --color-brand-content: #e0aaff;
+  --color-background-primary: #151015;
+  --color-background-secondary: #1f1822;
+  --color-foreground-primary: #f3e8ff;
 }
-
-/* (Valgfritt) litt rundere bilder/logoer om ønskelig */
-img.logo, .brand { border-radius: 6px; }
