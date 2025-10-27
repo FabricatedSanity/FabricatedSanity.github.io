@@ -9,4 +9,6 @@ This is based on experiences we have made, so keep that in mind when reading.
     :caption: Spraypaint
     :titlesonly: 
 
-    Metalic_spraypaint 
+    Metalic_spraypaint
+    Matt_spraypaint
+    Priminer
