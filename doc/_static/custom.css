@@ -1,23 +1,45 @@
-/* ====== LIGHT ====== */
-html {
-  /* your palette (Creative Circuit example) */
+/* ===== Base (fallback) ===== */
+body {
   --color-brand-primary: #7b2cbf;
   --color-brand-content: #9d4edd;
-
-  /* make Furo's links use your brand */
   --color-link: var(--color-brand-primary);
   --color-link--hover: var(--color-brand-content);
 }
 
-/* ====== DARK ====== */
-html[data-theme="dark"] {
+/* ===== Explicit LIGHT toggle ===== */
+body[data-theme="light"] {
+  --color-brand-primary: #7b2cbf;
+  --color-brand-content: #9d4edd;
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
+}
+
+/* ===== Explicit DARK toggle ===== */
+body[data-theme="dark"] {
   --color-brand-primary: #c77dff;
   --color-brand-content: #e0aaff;
-
   --color-link: var(--color-brand-primary);
   --color-link--hover: var(--color-brand-content);
 }
 
-/* Optional hard override if your cache is stubborn */
+/* ===== AUTO mode: follow system ===== */
+@media (prefers-color-scheme: light) {
+  body:not([data-theme="dark"]) {
+    --color-brand-primary: #7b2cbf;
+    --color-brand-content: #9d4edd;
+    --color-link: var(--color-brand-primary);
+    --color-link--hover: var(--color-brand-content);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    --color-brand-primary: #c77dff;
+    --color-brand-content: #e0aaff;
+    --color-link: var(--color-brand-primary);
+    --color-link--hover: var(--color-brand-content);
+  }
+}
+
+/* (Valgfritt) hard override på lenker hvis noe fortsatt caches */
 a, a:visited { color: var(--color-link) !important; }
 a:hover, a:focus { color: var(--color-link--hover) !important; }
