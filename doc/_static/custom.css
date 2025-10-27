@@ -1,4 +1,8 @@
-/* ===== Base (fallback) ===== */
+/* =========================================================
+   FabricatedSanity – Tilpasset Furo-tema
+   ========================================================= */
+
+/* ====== Base (fallback) ===== */
 body {
   --color-brand-primary: #7b2cbf;
   --color-brand-content: #9d4edd;
@@ -6,7 +10,7 @@ body {
   --color-link--hover: var(--color-brand-content);
 }
 
-/* ===== Explicit LIGHT toggle ===== */
+/* ====== Lys modus ===== */
 body[data-theme="light"] {
   --color-brand-primary: #7b2cbf;
   --color-brand-content: #9d4edd;
@@ -14,7 +18,7 @@ body[data-theme="light"] {
   --color-link--hover: var(--color-brand-content);
 }
 
-/* ===== Explicit DARK toggle ===== */
+/* ====== Mørk modus ===== */
 body[data-theme="dark"] {
   --color-brand-primary: #c77dff;
   --color-brand-content: #e0aaff;
@@ -22,7 +26,7 @@ body[data-theme="dark"] {
   --color-link--hover: var(--color-brand-content);
 }
 
-/* ===== AUTO mode: follow system ===== */
+/* ====== Auto-modus (følger systeminnstilling) ===== */
 @media (prefers-color-scheme: light) {
   body:not([data-theme="dark"]) {
     --color-brand-primary: #7b2cbf;
@@ -40,6 +44,51 @@ body[data-theme="dark"] {
   }
 }
 
-/* (Valgfritt) hard override på lenker hvis noe fortsatt caches */
-a, a:visited { color: var(--color-link) !important; }
-a:hover, a:focus { color: var(--color-link--hover) !important; }
+/* ====== Lenker ===== */
+a, a:visited {
+  color: var(--color-link) !important;
+}
+a:hover, a:focus {
+  color: var(--color-link--hover) !important;
+  text-decoration: underline;
+}
+
+/* ====== Overskrifter ===== */
+h1, h2 {
+  color: var(--color-brand-primary) !important;
+}
+h3, h4, h5, h6 {
+  color: var(--color-brand-content) !important;
+}
+
+/* Demp overskrifter i mørk modus for bedre kontrastbalanse */
+body[data-theme="dark"] h1,
+body[data-theme="dark"] h2 {
+  color: #d9b3ff !important;
+}
+
+/* ====== Sidebar og navigasjon ===== */
+
+/* Hover-farge i sidebar-tre */
+.sidebar-tree .reference:hover,
+.sidebar-tree .current .reference {
+  color: var(--color-brand-primary) !important;
+}
+
+/* "Contents" og seksjonsoverskrifter i sidebaren */
+.sidebar-tree .caption-text {
+  color: var(--color-brand-content) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs a:hover {
+  color: var(--color-brand-content) !important;
+}
+
+/* ====== Små kosmetiske detaljer ===== */
+img.logo, .brand {
+  border-radius: 6px;
+}
