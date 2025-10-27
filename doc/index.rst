@@ -13,3 +13,4 @@ Welcome to Example's documentation!
    some-feature.md
    another-feature.md
    Spraypaint/index
+   3D_Printing/index
