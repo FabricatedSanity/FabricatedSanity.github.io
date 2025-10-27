@@ -1,12 +1,5 @@
-Resin Printers
-==============
-
-.. note:: Theese are the printes that the group have acsess to at the moment this is writen. 
-
-
-**Elegoo**
-------------
-
+Elegoo
+=======
 Saturn 2
 
 

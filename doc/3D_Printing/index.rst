@@ -8,9 +8,9 @@ This section of the webpage is dedicated to 3D-printing. Information about diffe
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: 3D-Printing
     :titlesonly: 
 
-    3D_Printers/Resin
-    Filament/Resin
+    3D_Printers/index
+    Filament/index
