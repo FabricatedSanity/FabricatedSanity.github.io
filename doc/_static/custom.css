@@ -8,6 +8,7 @@ body {
   --color-brand-content: #9d4edd;
   --color-link: var(--color-brand-primary);
   --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #5c8aff; /* Blå for besøkte lenker */
 }
 
 /* ====== Lys modus ===== */
@@ -16,6 +17,7 @@ body[data-theme="light"] {
   --color-brand-content: #9d4edd;
   --color-link: var(--color-brand-primary);
   --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #2f66d0;
 }
 
 /* ====== Mørk modus ===== */
@@ -24,6 +26,7 @@ body[data-theme="dark"] {
   --color-brand-content: #e0aaff;
   --color-link: var(--color-brand-primary);
   --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #5ea8ff;
 }
 
 /* ====== Auto-modus (følger systeminnstilling) ===== */
@@ -33,6 +36,7 @@ body[data-theme="dark"] {
     --color-brand-content: #9d4edd;
     --color-link: var(--color-brand-primary);
     --color-link--hover: var(--color-brand-content);
+    --color-link--visited: #2f66d0;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -41,16 +45,21 @@ body[data-theme="dark"] {
     --color-brand-content: #e0aaff;
     --color-link: var(--color-brand-primary);
     --color-link--hover: var(--color-brand-content);
+    --color-link--visited: #5ea8ff;
   }
 }
 
 /* ====== Lenker ===== */
-a, a:visited {
-  color: var(--color-link) !important;
+a, a:link {
+  color: var(--color-link);
+  transition: color 0.2s ease-in-out;
 }
 a:hover, a:focus {
-  color: var(--color-link--hover) !important;
+  color: var(--color-link--hover);
   text-decoration: underline;
+}
+a:visited {
+  color: var(--color-link--visited);
 }
 
 /* ====== Overskrifter ===== */
