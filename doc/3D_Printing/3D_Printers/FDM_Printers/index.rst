@@ -8,4 +8,4 @@ FDM Printers are the more commonly to use, they normally come in two different d
    :maxdepth: 2
    :caption: Contents:
 
-    ArtillerySidewinderx2
+    ArtillerySidewinderx2.rst

@@ -9,4 +9,4 @@ The different brands and types of filaments this groupe have explored.
    :maxdepth: 2
    :caption: Contents:
 
-    eSun
+    eSun.rst
