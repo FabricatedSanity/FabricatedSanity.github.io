@@ -1,15 +1,23 @@
+/* ====== LIGHT ====== */
 html {
+  /* your palette (Creative Circuit example) */
   --color-brand-primary: #7b2cbf;
   --color-brand-content: #9d4edd;
-  --color-background-primary: #ffffff;
-  --color-background-secondary: #f8f3fc;
-  --color-foreground-primary: #1a1a1a;
+
+  /* make Furo's links use your brand */
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
 }
 
+/* ====== DARK ====== */
 html[data-theme="dark"] {
   --color-brand-primary: #c77dff;
   --color-brand-content: #e0aaff;
-  --color-background-primary: #151015;
-  --color-background-secondary: #1f1822;
-  --color-foreground-primary: #f3e8ff;
+
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
 }
+
+/* Optional hard override if your cache is stubborn */
+a, a:visited { color: var(--color-link) !important; }
+a:hover, a:focus { color: var(--color-link--hover) !important; }
