@@ -5,8 +5,7 @@
 
 Welcome to FabricatedSanity's documentation!
 =============================================
-
-Test c:
+Hello! Erlend here, and welcome to the documentation for FabricatedSanity. This project is a collection of tools and resources for 3D printing and design, aimed at helping makers and hobbyists create amazing projects.
 
 .. toctree::
    :maxdepth: 2
