@@ -4,7 +4,9 @@
    contain the root `toctree` directive.
 
 Welcome to FabricatedSanity's documentation!
-===================================
+=============================================
+
+Test c:
 
 .. toctree::
    :maxdepth: 2
