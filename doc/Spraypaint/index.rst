@@ -11,4 +11,4 @@ This is based on experiences we have made, so keep that in mind when reading.
 
     Metalic_spraypaint
     Matt_spraypaint
-    Priminer
+    Primer
