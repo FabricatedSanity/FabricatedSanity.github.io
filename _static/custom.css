@@ -1,0 +1,103 @@
+/* =========================================================
+   FabricatedSanity – Tilpasset Furo-tema
+   ========================================================= */
+
+/* ====== Base (fallback) ===== */
+body {
+  --color-brand-primary: #7b2cbf;
+  --color-brand-content: #9d4edd;
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #5c8aff; /* Blå for besøkte lenker */
+}
+
+/* ====== Lys modus ===== */
+body[data-theme="light"] {
+  --color-brand-primary: #7b2cbf;
+  --color-brand-content: #9d4edd;
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #2f66d0;
+}
+
+/* ====== Mørk modus ===== */
+body[data-theme="dark"] {
+  --color-brand-primary: #c77dff;
+  --color-brand-content: #e0aaff;
+  --color-link: var(--color-brand-primary);
+  --color-link--hover: var(--color-brand-content);
+  --color-link--visited: #5ea8ff;
+}
+
+/* ====== Auto-modus (følger systeminnstilling) ===== */
+@media (prefers-color-scheme: light) {
+  body:not([data-theme="dark"]) {
+    --color-brand-primary: #7b2cbf;
+    --color-brand-content: #9d4edd;
+    --color-link: var(--color-brand-primary);
+    --color-link--hover: var(--color-brand-content);
+    --color-link--visited: #2f66d0;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    --color-brand-primary: #c77dff;
+    --color-brand-content: #e0aaff;
+    --color-link: var(--color-brand-primary);
+    --color-link--hover: var(--color-brand-content);
+    --color-link--visited: #5ea8ff;
+  }
+}
+
+/* ====== Lenker ===== */
+a, a:link {
+  color: var(--color-link);
+  transition: color 0.2s ease-in-out;
+}
+a:hover, a:focus {
+  color: var(--color-link--hover);
+  text-decoration: underline;
+}
+a:visited {
+  color: var(--color-link--visited);
+}
+
+/* ====== Overskrifter ===== */
+h1, h2 {
+  color: var(--color-brand-primary) !important;
+}
+h3, h4, h5, h6 {
+  color: var(--color-brand-content) !important;
+}
+
+/* Demp overskrifter i mørk modus for bedre kontrastbalanse */
+body[data-theme="dark"] h1,
+body[data-theme="dark"] h2 {
+  color: #d9b3ff !important;
+}
+
+/* ====== Sidebar og navigasjon ===== */
+
+/* Hover-farge i sidebar-tre */
+.sidebar-tree .reference:hover,
+.sidebar-tree .current .reference {
+  color: var(--color-brand-primary) !important;
+}
+
+/* "Contents" og seksjonsoverskrifter i sidebaren */
+.sidebar-tree .caption-text {
+  color: var(--color-brand-content) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs a:hover {
+  color: var(--color-brand-content) !important;
+}
+
+/* ====== Små kosmetiske detaljer ===== */
+img.logo, .brand {
+  border-radius: 6px;
+}
