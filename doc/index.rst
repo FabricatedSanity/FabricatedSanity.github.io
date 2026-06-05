@@ -13,3 +13,4 @@ Hello! Marie, Sunniva and Celine here, and welcome to the documentation for Fabr
 
    Spraypaint/index
    3D_Printing/index
+   V6_motorised_beerholder/index
