@@ -2,7 +2,7 @@ Motor controll
 ===============
 
 .. figure:: ../_static/V6_motorised_beerHolder/Kretsskjema_motor_motorkontroller_ESP32.png
-   :align: center
+   :align: right
    :height: 600
    :width:600 
 
