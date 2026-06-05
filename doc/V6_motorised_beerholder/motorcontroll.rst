@@ -3,7 +3,7 @@ Motorcontroll
 
 .. figure:: ../_static/V6_motorised_beerHolder/Kretsskjema_motor_motorkontroller_ESP32.png
    :align: right
-   :height: 200
-   :width: 200
+   :height: 400
+   :width: 400
 
    Representation as the circuit analysis for motorcontroll
