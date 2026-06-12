@@ -7,6 +7,8 @@ Welcome to FabricatedSanity's documentation!
 =============================================
 Hello! Marie, Sunniva and Celine here, and welcome to the documentation for FabricatedSanity. This project is a collection of tools and resources for 3D printing and design, aimed at helping makers and hobbyists create amazing projects.
 
+Bolle 2
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
