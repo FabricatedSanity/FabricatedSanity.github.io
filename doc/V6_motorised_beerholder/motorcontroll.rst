@@ -6,7 +6,6 @@ connected the pins to each controller.
 
 
 
-
 .. figure:: ../_static/V6_motorised_beerHolder/Kretsskjema_motor_motorkontroller_ESP32.png
    :align: center
    :height: 600
