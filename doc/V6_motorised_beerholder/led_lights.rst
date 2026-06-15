@@ -15,3 +15,6 @@ Began with the first LED in the system, placed it inside the motor to find out h
 Some of the LEDs connections are easy to access outside the engine block, while some of them are moredifficult to access since they are placed in the engine block and the wires go though the additional holes made in the engine block.
 While the LEDs where soldered together the connections where tested to make sure they worked before going further with the next LED. This was done to make sure that if there was a problem with the connections, it would be easier to find and fix it before going further with the next LED.
 All of the LEDs where taped to the engine block so that the lights would be in the correct place, and after all of the LEDs where placed and connected, we glued the LEDs to the engine block so that they would stay in place and reduce the risk of them moving.
+
+
+This prosses takes a lot oftime and results in some wire waste, but it makes it easier to find and fix any problems with connections, and it also makes sure that the LEDs are placed in the correct position in the engine block, which is important for the overall look of the project.
